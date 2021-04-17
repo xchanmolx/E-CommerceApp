@@ -1,0 +1,27 @@
+Learn to build an e-commerce app with Net Core and Angular
+02 API Basics - 012 Adding a connection string
+Video: 
+
+for ASPNET Core API - package references - NuGet Package Manager
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Design
+
+for .NET 5 powershell
+mkdir skinet
+dotnet new -h
+dotnet new -l
+dotnet new sln
+dotnet new webapi -o API
+dotnet sln -h
+dotnet sln add API/
+dotnet sln list
+dotnet dev-certs https
+dotnet dev-certs https -h
+dotnet dev-certs https -t
+
+Install on computer
+.NET Core SDK
+Postman
+Visual Studio Code
+git

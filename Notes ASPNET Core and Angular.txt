@@ -1,0 +1,138 @@
+Finished - Finished
+Video: 
+
+for ASPNET Core API - package references - NuGet Package Manager
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Design
+Newtonsoft.Json
+Microsoft.AspNetCore.Mvc.NewtonsoftJson
+AutoMapper
+AutoMapper.Extensions.Microsoft.DependencyInjection
+CloudinaryDotNet
+Microsoft.EntityFrameworkCore.Proxies
+Microsoft.AspNetCore.Identity.EntityFrameworkCore
+GetService - using Microsoft.Extensions.DependencyInjection;
+
+for EntityFrameworkCore
+dotnet tool install --global dotnet-ef
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+dotnet ef database drop
+
+for Angular - package
+npm install bootstrap font-awesome
+npm install alertifyjs
+npm install @auth0/angular-jwt
+npm install ngx-bootstrap --save
+npm install bootswatch
+npm i ng2-file-upload --save
+npm install time-ago-pipe --save
+npm install ngx-spinner --save
+
+for Visual Studio Code - Extensions
+C#
+C# Extensions
+NuGet Package Manager
+Angular Snippets
+Angular Files
+Angular Language Service
+Auto Rename Tag
+Bracket Pair Colorizer 2
+Debugger for Chrome
+Material Icon Theme
+Prettier - Code formatter
+TSLint
+angular2-switcher
+
+for DOTNET Core - powershell
+dotnet run
+dotnet watch run
+dotnet user-secrets
+dotnet user-secrets set "AppSettings:Token" "super secret key"
+dotnet user-secrets list
+--------------------------------------------
+for Publishing the DOTNET Core
+dotnet publish --configuration Release
+dotnet publish -c Release
+
+for Angular - powershell
+ng serve
+ng generate component xyz - New Component
+ng add @angular/material - Angular material
+ng add @angular/pwa - Add PWA Support
+ng add ____ - Add Dependency
+ng test - Run and Watch Tests
+ng build --prod - Build for Production
+ng g guard auth --skipTests
+--------------------------------------------
+for Publishing the Angular
+angular.json ---> "outputPath": "../DatingApp.API/wwwroot"
+ng build
+ng build --prod
+
+cmd or Command Line for DOTNET
+dotnet --info
+mkdir DatingApp
+dotnet --version
+dotnet -h
+dotnet new -h
+dotnet new -l
+dotnet new webapi -h
+dotnet new webapi -n DatingApp.API
+
+cmd or Command Line for Angular
+npm install -g @angular/cli
+ng new DatingApp-SPA
+
+Install for Computer
+Node
+Git
+Postman
+Visual Studio Code
+Sql Server Management Studio(SSM)
+Sql Server
+
+.gitignore for ASPNET Core API
+.vscode
+bin
+obj
+*.db
+appsettings.json
+wwwroot
+
+Clone the repository you need then,
+locate the folder for API, then run 'dotnet restore'
+locate the folder for SPA, then run 'npm install'
+
+If Intellisense not work for DOTNET
+click Shift + Ctrl + P, then search OmniSharp, then restart OmniSharp
+
+Connection String for SqlServer
+Trusted Connection
+Server=myServerAddress;Database=myDataBase;Trusted_Connection=True;
+
+Using a non-standard port for SqlServer
+Server=.\\SQLEXPRESS,1433;Database=DatingApp.db;User Id=datingappapi;Password=free232469;
+
+Why powershell does not run Angular commands?
+Remove ng.ps1 from the directory C:\Users\%username%\AppData\Roaming\npm\ 
+then try clearing the npm cache at C:\Users\%username%\AppData\Roaming\npm-cache\
+
+<pre>
+  Form Valid: {{loginForm.valid}}
+  Form Touched: {{loginForm.touched}}
+  Form Dirty: {{loginForm.dirty}}
+  Form Values: {{loginForm.value | json}}
+  Username Valid: {{username.valid}}
+  Username Touched: {{username.touched}}
+  Username Dirty: {{username.dirty}}
+  Username Value: {{username.value}}
+  Password Valid: {{password.valid}}
+  Password Touched: {{password.touched}}
+  Password Dirty: {{password.dirty}}
+  Password Value: {{password.value}}
+</pre>
+
+Angular - Parent to Child Component ---> @Input() valuesFromHome: any;
+Angular - Child to Parent Component ---> @Output() cancelRegister = new EventEmitter();
