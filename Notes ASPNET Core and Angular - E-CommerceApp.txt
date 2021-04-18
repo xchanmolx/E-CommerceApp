@@ -1,5 +1,5 @@
 Learn to build an e-commerce app with Net Core and Angular
-02 API Basics - 012 Adding a connection string
+03 API Architecture - 020 Introduction
 Video: 
 
 for ASPNET Core API - package references - NuGet Package Manager
@@ -40,9 +40,18 @@ dotnet add reference ../Core/
 cd .. to parent folder once again
 dotnet restore
 dotnet build
+dotnet ef database drop -p Infrastructure -s API
+dotnet ef migrations remove -p Infrastructure -s API
+dotnet ef migrations add InitialCreate -p Infrastructure -s API -o Data/Migrations
+
+Make git to github
 cd .. to parent folder
 git status
 git init
+git add .
+git commit -m "Initial Commit"
+git remote add origin "github address"
+git push -u origin master
 
 Install on computer
 .NET Core SDK
