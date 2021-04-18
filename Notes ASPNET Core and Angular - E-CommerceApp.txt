@@ -42,6 +42,7 @@ dotnet restore
 dotnet build
 cd .. to parent folder
 git status
+git init
 
 Install on computer
 .NET Core SDK
