@@ -19,9 +19,80 @@ dotnet sln list
 dotnet dev-certs https
 dotnet dev-certs https -h
 dotnet dev-certs https -t
+dotnet --info
+dotnet tool install --global dotnet-ef --version 5.0.0
+dotnet ef -h
+dotnet ef migrations -h
+dotnet ef migrations add InitialCreate -o Data/Migrations
+dotnet ef database -h
+cd .. to parent folder
+dotnet new -h
+dotnet new -l
+dotnet new classlib -o Core
+dotnet new classlib -o Infrastructure
+dotnet sln add Core/
+dotnet sln add Infrastructure/
+cd to API
+dotnet add reference ../Infrastructure/
+cd .. to parent folder again
+cd Infrastructure
+dotnet add reference ../Core/
+cd .. to parent folder once again
+dotnet restore
+dotnet build
+cd .. to parent folder
+git status
 
 Install on computer
 .NET Core SDK
 Postman
 Visual Studio Code
 git
+
+.gitignore for ASPNET Core API
+.vscode
+bin
+obj
+*.db
+appsettings.json
+wwwroot
+
+Clone the repository you need then,
+locate the folder for API, then run 'dotnet restore'
+locate the folder for SPA, then run 'npm install'
+
+If Intellisense not work for DOTNET
+click Shift + Ctrl + P, then search OmniSharp, then restart OmniSharp
+
+Connection String for SqlServer
+Trusted Connection
+Server=myServerAddress;Database=myDataBase;Trusted_Connection=True;
+
+Using a non-standard port for SqlServer
+Server=.\\SQLEXPRESS,1433;Database=DatingApp.db;User Id=datingappapi;Password=free232469;
+
+Why powershell does not run Angular commands?
+Remove ng.ps1 from the directory C:\Users\%username%\AppData\Roaming\npm\ 
+then try clearing the npm cache at C:\Users\%username%\AppData\Roaming\npm-cache\
+
+<pre>
+  Form Valid: {{loginForm.valid}}
+  Form Touched: {{loginForm.touched}}
+  Form Dirty: {{loginForm.dirty}}
+  Form Values: {{loginForm.value | json}}
+  Username Valid: {{username.valid}}
+  Username Touched: {{username.touched}}
+  Username Dirty: {{username.dirty}}
+  Username Value: {{username.value}}
+  Password Valid: {{password.valid}}
+  Password Touched: {{password.touched}}
+  Password Dirty: {{password.dirty}}
+  Password Value: {{password.value}}
+</pre>
+
+Angular - Parent to Child Component ---> @Input() valuesFromHome: any;
+Angular - Child to Parent Component ---> @Output() cancelRegister = new EventEmitter();
+
+use DatabaseName 
+GO
+sp_changedbowner 'sa'

@@ -2,6 +2,5 @@
 bin
 obj
 *.db
-*.json
 appsettings.json
 wwwroot
