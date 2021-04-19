@@ -1,5 +1,5 @@
 Learn to build an e-commerce app with Net Core and Angular
-03 API Architecture - 020 Introduction
+03 API Architecture - 028 Adding Seed data
 Video: 
 
 for ASPNET Core API - package references - NuGet Package Manager
