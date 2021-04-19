@@ -1,11 +1,15 @@
 Learn to build an e-commerce app with Net Core and Angular
-03 API Architecture - 028 Adding Seed data
+04 API Generic Repository - 042 Shaping the data to return with DTOs
 Video: 
 
 for ASPNET Core API - package references - NuGet Package Manager
+Microsoft.EntityFrameworkCore.Design
+AutoMapper
+AutoMapper.Extensions.Microsoft.DependencyInjection
+
+for Infrastructure Class Library
 Microsoft.EntityFrameworkCore
 Microsoft.EntityFrameworkCore.SqlServer
-Microsoft.EntityFrameworkCore.Design
 
 for .NET 5 powershell
 mkdir skinet
