@@ -1,5 +1,5 @@
 Learn to build an e-commerce app with Net Core and Angular
-04 API Generic Repository - 042 Shaping the data to return with DTOs
+05 API Error Handling - 048 Introduction
 Video: 
 
 for ASPNET Core API - package references - NuGet Package Manager
