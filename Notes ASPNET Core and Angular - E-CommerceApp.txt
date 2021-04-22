@@ -1,5 +1,5 @@
 Learn to build an e-commerce app with Net Core and Angular
-07 Client - Angular setup - 072 Reviewing the Angular project files in the template
+08 Client - Angular Basics - 076 Introduction
 Video: 
 
 Sorting: use => OrderBy and OrderByDescending
@@ -59,6 +59,9 @@ ng new client
 ng serve
 ng add ngx-bootstrap
 npm install bootstrap font-awesome
+ng g
+ng g c --help
+ng g c nav-bar --skip-tests
 
 3rd party Component for Angular
 ngx-bootstrap
@@ -71,6 +74,20 @@ git add .
 git commit -m "Initial Commit"
 git remote add origin "github address"
 git push -u origin master
+
+Visual Studio Code Extensions
+Angular Language Service
+Angular Snippets
+Prettier - Code Formatter
+Bracket Pair Colorizer 2
+angular2-switcher
+Auto Rename Tag
+ESLint
+C#
+C# Extensions
+Debugger for Chrome
+Material Icon Theme
+NuGet Package Manager
 
 Install on computer
 .NET Core SDK
@@ -123,6 +140,11 @@ then try clearing the npm cache at C:\Users\%username%\AppData\Roaming\npm-cache
 
 Angular - Parent to Child Component ---> @Input() valuesFromHome: any;
 Angular - Child to Parent Component ---> @Output() cancelRegister = new EventEmitter();
+
+Observable - we can cancel, fail or succeed -> subscibe() or map() or filter() -> data
+
+Parent Element => position: relative, -> Child Element => position: absolute - 
+change the position whatever you want
 
 use DatabaseName 
 GO
