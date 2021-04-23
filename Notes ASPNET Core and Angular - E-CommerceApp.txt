@@ -1,5 +1,5 @@
 Learn to build an e-commerce app with Net Core and Angular
-08 Client - Angular Basics - 076 Introduction
+09 Client - Building the UI for our shop - 096 Adding the sort functionality
 Video: 
 
 Sorting: use => OrderBy and OrderByDescending
@@ -62,6 +62,9 @@ npm install bootstrap font-awesome
 ng g
 ng g c --help
 ng g c nav-bar --skip-tests
+ng g m core
+ng g s shop --skip-tests --flat
+ng g m shop-routing --flat
 
 3rd party Component for Angular
 ngx-bootstrap
@@ -142,6 +145,10 @@ Angular - Parent to Child Component ---> @Input() valuesFromHome: any;
 Angular - Child to Parent Component ---> @Output() cancelRegister = new EventEmitter();
 
 Observable - we can cancel, fail or succeed -> subscibe() or map() or filter() -> data
+
+.pipe() -> chain inside rxjs/operators
+do something = (click)=""
+receiving something = [class.active]="brand.id === brandIdSelected"
 
 Parent Element => position: relative, -> Child Element => position: absolute - 
 change the position whatever you want
