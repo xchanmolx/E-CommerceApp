@@ -1,5 +1,5 @@
 Learn to build an e-commerce app with Net Core and Angular
-09 Client - Building the UI for our shop - 096 Adding the sort functionality
+10 Client - Routing - 108 Creating the routes
 Video: 
 
 Sorting: use => OrderBy and OrderByDescending
