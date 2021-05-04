@@ -1,5 +1,5 @@
 Learn to build an e-commerce app with Net Core and Angular
-10 Client - Routing - 108 Creating the routes
+11 Client - Error handling - 120 Handling validation errrors
 Video: 
 
 Sorting: use => OrderBy and OrderByDescending
@@ -58,7 +58,6 @@ npm install -g @angular/cli
 ng new client
 ng serve
 ng add ngx-bootstrap
-npm install bootstrap font-awesome
 ng g
 ng g c --help
 ng g c nav-bar --skip-tests
@@ -67,7 +66,9 @@ ng g s shop --skip-tests --flat
 ng g m shop-routing --flat
 
 3rd party Component for Angular
-ngx-bootstrap
+npm install bootstrap font-awesome
+npm install ngx-bootstrap --save
+npm install ngx-toastr --save
 
 Make git to github
 cd .. to parent folder
@@ -152,6 +153,10 @@ receiving something = [class.active]="brand.id === brandIdSelected"
 
 Parent Element => position: relative, -> Child Element => position: absolute - 
 change the position whatever you want
+
+Clone the repository you need then,
+locate the folder for API, then run 'dotnet restore'
+locate the folder for SPA, then run 'npm install'
 
 use DatabaseName 
 GO
