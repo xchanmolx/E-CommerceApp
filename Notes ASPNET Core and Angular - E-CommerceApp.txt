@@ -64,11 +64,15 @@ ng g c nav-bar --skip-tests
 ng g m core
 ng g s shop --skip-tests --flat
 ng g m shop-routing --flat
+ng g interceptor loading --flat --skip-tests
 
 3rd party Component for Angular
 npm install bootstrap font-awesome
 npm install ngx-bootstrap --save
 npm install ngx-toastr --save
+npm install --save xng-breadcrumb
+npm install bootswatch
+npm install ngx-spinner
 
 Make git to github
 cd .. to parent folder
@@ -78,6 +82,8 @@ git add .
 git commit -m "Initial Commit"
 git remote add origin "github address"
 git push -u origin master
+git pull --rebase origin main
+git push origin main
 
 Visual Studio Code Extensions
 Angular Language Service
