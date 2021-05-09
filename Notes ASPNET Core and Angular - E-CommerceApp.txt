@@ -1,6 +1,6 @@
 Learn to build an e-commerce app with Net Core and Angular
-13 API - Basket - 142 Testing the basket functionality
-Video: 8:01
+14 Client - Basket - 150 Persisting the basket on startup
+Video: 0:48
 
 Sorting: use => OrderBy and OrderByDescending
 Filtering: use => Where clause or Any Condition clause
@@ -74,6 +74,7 @@ npm install ngx-toastr --save
 npm install --save xng-breadcrumb
 npm install bootswatch
 npm install ngx-spinner
+npm install uuid
 
 Make git to github
 cd .. to parent folder
