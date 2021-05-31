@@ -1,6 +1,6 @@
 Learn to build an e-commerce app with Net Core and Angular
-14 Client - Basket - 150 Persisting the basket on startup
-Video: 0:48
+14 Client - Basket - 158 Adding the checkout module
+Video: 3:27
 
 Sorting: use => OrderBy and OrderByDescending
 Filtering: use => Where clause or Any Condition clause
@@ -86,6 +86,8 @@ git remote add origin "github address"
 git push -u origin master
 git pull --rebase origin main
 git push origin main
+git rm dumb.rdb - rm -> remove
+-f -> force removal
 
 Visual Studio Code Extensions
 Angular Language Service
@@ -107,6 +109,8 @@ Postman
 Visual Studio Code
 git
 Node JS
+Sql Server Management Studio 2019
+Sql Server Express 2019
 Angular CLI
 Chocolatey Package Manager for Windows
 choco install redis-64
