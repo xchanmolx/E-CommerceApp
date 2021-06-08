@@ -1,6 +1,6 @@
 Learn to build an e-commerce app with Net Core and Angular
-15 API - Identity - 172 Testing the token
-Video: 6:49
+16 API - Validation - 182 Validating the basket
+Video: 5:29
 
 Sorting: use => OrderBy and OrderByDescending
 Filtering: use => Where clause or Any Condition clause
