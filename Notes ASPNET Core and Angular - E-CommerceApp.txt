@@ -188,10 +188,6 @@ receiving something = [class.active]="brand.id === brandIdSelected"
 Parent Element => position: relative, -> Child Element => position: absolute - 
 change the position whatever you want
 
-Clone the repository you need then,
-locate the folder for API, then run 'dotnet restore'
-locate the folder for SPA, then run 'npm install'
-
 use DatabaseName 
 GO
 sp_changedbowner 'sa'
