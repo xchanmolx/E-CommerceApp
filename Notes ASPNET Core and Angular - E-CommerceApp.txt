@@ -1,5 +1,5 @@
 Learn to build an e-commerce app with Net Core and Angular
-17 Client - Identity - 188 Creating the login form
+17 Client - Identity - 202 Improving the async validator
 Video: 
 
 Sorting: use => OrderBy and OrderByDescending
@@ -134,6 +134,7 @@ redis-cli KEYS '*'
 redis-cli GET <keyvalue>
 redis-cli ping
 redis-cli shutdown
+netstat -aon
 
 .gitignore for ASPNET Core API
 .vscode
@@ -191,3 +192,19 @@ change the position whatever you want
 use DatabaseName 
 GO
 sp_changedbowner 'sa'
+
+tsconfig.json = "strictDomEventTypes": false
+
+onChange(event: Event): void {
+    (event.currentTarget as HTMLInputElement).value;
+}
+
+(input)="onChange($any($event.currentTarget).value)"
+
+<div class="col-4">
+  <p>Form Status: {{loginForm.status}}</p>
+  <p>Email Status: {{loginForm.get('email')!.status}}</p>
+  <p>Email Touched: {{loginForm.get('email')!.touched}}</p>
+  <p>Email Dirty: {{loginForm.get('email')!.dirty}}</p>
+  <pre>{{loginForm.value | json}}</pre>
+</div>

@@ -10,3 +10,15 @@ E:\xchanmolxFiles\aspnetcoreapi-angular\E-CommerceApp\skinet\Core\obj\Debug\net5
 E:\xchanmolxFiles\aspnetcoreapi-angular\E-CommerceApp\skinet\Core\obj\Debug\net5.0\Core.dll
 E:\xchanmolxFiles\aspnetcoreapi-angular\E-CommerceApp\skinet\Core\obj\Debug\net5.0\ref\Core.dll
 E:\xchanmolxFiles\aspnetcoreapi-angular\E-CommerceApp\skinet\Core\obj\Debug\net5.0\Core.pdb
+C:\angularAspNetCoreApi\E-CommerceApp\Core\bin\Debug\net5.0\Core.deps.json
+C:\angularAspNetCoreApi\E-CommerceApp\Core\bin\Debug\net5.0\Core.dll
+C:\angularAspNetCoreApi\E-CommerceApp\Core\bin\Debug\net5.0\ref\Core.dll
+C:\angularAspNetCoreApi\E-CommerceApp\Core\bin\Debug\net5.0\Core.pdb
+C:\angularAspNetCoreApi\E-CommerceApp\Core\obj\Debug\net5.0\Core.csprojAssemblyReference.cache
+C:\angularAspNetCoreApi\E-CommerceApp\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\angularAspNetCoreApi\E-CommerceApp\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+C:\angularAspNetCoreApi\E-CommerceApp\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+C:\angularAspNetCoreApi\E-CommerceApp\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+C:\angularAspNetCoreApi\E-CommerceApp\Core\obj\Debug\net5.0\Core.dll
+C:\angularAspNetCoreApi\E-CommerceApp\Core\obj\Debug\net5.0\ref\Core.dll
+C:\angularAspNetCoreApi\E-CommerceApp\Core\obj\Debug\net5.0\Core.pdb
