@@ -6698,32 +6698,44 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\ABTIK\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\angularAspNetCoreApi\\E-CommerceApp\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "E:\\xchanmolxFiles\\aspnetcoreapi-angular\\E-CommerceApp\\skinet\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\angularAspNetCoreApi\\E-CommerceApp\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\angularAspNetCoreApi\\E-CommerceApp\\Infrastructure\\obj\\",
+      "projectPath": "E:\\xchanmolxFiles\\aspnetcoreapi-angular\\E-CommerceApp\\skinet\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\ABTIK\\.nuget\\packages\\",
+      "outputPath": "E:\\xchanmolxFiles\\aspnetcoreapi-angular\\E-CommerceApp\\skinet\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ABTIK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "E:\\xchanmolxFiles\\c-sharp-apps\\Blazor-Apps\\AandNWaterBillingSystem\\AandNWater.Library\\bin\\Release": {},
+        "E:\\xchanmolxFiles\\c-sharp-apps\\Blazor-Apps\\AloguinsanWebApp\\Aloguinsan.Library\\bin\\Release": {},
+        "E:\\xchanmolxFiles\\c-sharp-apps\\Blazor-Apps\\DRRMOWebApplication\\DRRMO.Library\\bin\\Release": {},
+        "E:\\xchanmolxFiles\\c-sharp-apps\\Blazor-Apps\\GSOWebApp\\GSODataLibrary\\GSODataLibrary\\bin\\Release": {},
+        "E:\\xchanmolxFiles\\c-sharp-apps\\Web-API-Fundamentals\\WebCore.Library\\bin\\Release": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\angularAspNetCoreApi\\E-CommerceApp\\Core\\Core.csproj": {
-              "projectPath": "C:\\angularAspNetCoreApi\\E-CommerceApp\\Core\\Core.csproj"
+            "E:\\xchanmolxFiles\\aspnetcoreapi-angular\\E-CommerceApp\\skinet\\Core\\Core.csproj": {
+              "projectPath": "E:\\xchanmolxFiles\\aspnetcoreapi-angular\\E-CommerceApp\\skinet\\Core\\Core.csproj"
             }
           }
         }

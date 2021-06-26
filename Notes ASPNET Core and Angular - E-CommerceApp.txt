@@ -1,5 +1,5 @@
 Learn to build an e-commerce app with Net Core and Angular
-17 Client - Identity - 202 Improving the async validator
+17 Client - Identity - 203 Creating an auth guard
 Video: 
 
 Sorting: use => OrderBy and OrderByDescending
@@ -194,6 +194,8 @@ GO
 sp_changedbowner 'sa'
 
 tsconfig.json = "strictDomEventTypes": false
+
+Object is possibly 'undefined'.ts(2532) --> ?
 
 onChange(event: Event): void {
     (event.currentTarget as HTMLInputElement).value;
