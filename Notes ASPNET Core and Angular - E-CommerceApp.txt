@@ -1,6 +1,6 @@
 Learn to build an e-commerce app with Net Core and Angular
-18 API - Orders - 215 Debugging the order method
-Video: 6:22
+18 API - Orders - 217 Implementing the Unit of work
+Video: 
 
 Sorting: use => OrderBy and OrderByDescending
 Filtering: use => Where clause or Any Condition clause
